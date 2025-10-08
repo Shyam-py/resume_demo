@@ -139,7 +139,8 @@ if st.button("Fetch job posting from URL") and job_url:
         else:
             job_description = text
             st.success("Fetched job description successfully.")
-            st.experimental_rerun()
+            st.rerun()
+
 
 if not resume_file:
     st.info("Please upload a resume to continue.")
@@ -208,4 +209,5 @@ with col2:
         file_name="optimized_resume.txt",
         mime="text/plain",
     )
+
 
