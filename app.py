@@ -13,8 +13,7 @@ import re
 
 # --- CONFIG ---
 st.set_page_config(page_title="TEST", layout="wide")
-st.title("Resume Optimizer (Testing)")
-st.caption("Upload your resume and a job description — get a truthful, ATS-optimized version instantly.")
+st.title("Resume Optimizer (Testing) 😼🙀")
 
 # ======== 🔑 OPENAI API KEY =========
 # Default OpenAI client and model
@@ -209,6 +208,7 @@ with col2:
         file_name="optimized_resume.txt",
         mime="text/plain",
     )
+
 
 
 
