@@ -181,7 +181,7 @@ suggestions = parsed_output.get("suggestions", "")
 # --- Display Results ---
 st.success("Resume optimization complete!")
 
-st.markdown("### Optimized Resume (ATS-Friendly)")
+st.markdown("### Optimized Resume (ATS-Friendly) Testing 😾😸")
 st.code(optimized_resume, language="text")
 
 st.markdown("### Changelog")
@@ -209,5 +209,6 @@ with col2:
         file_name="optimized_resume.txt",
         mime="text/plain",
     )
+
 
 
