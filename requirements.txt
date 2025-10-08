@@ -1,0 +1,7 @@
+streamlit
+openai>=1.0.0
+pdfplumber
+docx2txt
+python-docx
+beautifulsoup4
+requests
